@@ -32,4 +32,3 @@ Handlers only handle exceptions that occur in the corresponding try clause, not 
 except (RuntimeError, TypeError, NameError):
     pass
 ```
-
