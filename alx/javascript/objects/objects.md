@@ -54,3 +54,34 @@ person["name"]["last"] = "Cratchit";
 ```
 
 you can also create new members of the object using this way
+
+## constructors
+
+when you call a constructor, it creates a new object, bind `this` to the new object, run the code in the constructor and return the new object
+
+syntax:
+
+```javascript
+function Person(name) {
+  this.name = name;
+  this.introduceSelf = function () {
+    console.log(`Hi! I'm ${this.name}.`);
+  };
+}
+
+```
+
+to call this constructor:
+
+```javascript
+const salva = new Person("Salva");
+salva.name;
+salva.introduceSelf();
+// "Hi! I'm Salva."
+
+const frankie = new Person("Frankie");
+frankie.name;
+frankie.introduceSelf();
+// "Hi! I'm Frankie."
+
+```
