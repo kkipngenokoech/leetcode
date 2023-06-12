@@ -75,4 +75,3 @@ they can be characterized by three aspects:
 1. kind - Getter, Setter, method, field
 2. location - static, instance
 3. visibility - public, private
-
