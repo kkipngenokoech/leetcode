@@ -6,4 +6,3 @@ it includes:
 
 1. scripting
 2. web front-end
-
