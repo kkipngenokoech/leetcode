@@ -1,3 +1,5 @@
+# INBUILT METHODS
+
 ## Reduce()
 
 this is a higher order function which is used to reduce elements in an array into one  value
