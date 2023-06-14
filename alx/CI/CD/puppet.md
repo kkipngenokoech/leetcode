@@ -182,7 +182,7 @@ Similarly, unless will execute the command all times, except when the command un
 
 ## Working with Templates
 
-Templates are typically used to set up configuration files, allowing for the use of variables and other features intended to make these files more versatile and reusable. 
+Templates are typically used to set up configuration files, allowing for the use of variables and other features intended to make these files more versatile and reusable.
 
 Puppet supports two different formats for templates:
 
@@ -223,4 +223,3 @@ service { 'apache2':
     enable => true
 }
 ```
-
